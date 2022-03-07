@@ -2,7 +2,7 @@
 
 Copied from https://github.com/cvrlnolan/turborepo-tailwindcss
 
-Added **`ui`** component library styled with Emotion CSS, and a **`styles`** package to be shared by ui components and all apps.
+Added `ui` component library styled with Emotion CSS, and a `styles` package to be shared by ui components and all apps.
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
@@ -11,7 +11,7 @@ Added **`ui`** component library styled with Emotion CSS, and a **`styles`** pac
 
 Easy and fast. HOWEVER, https://vercel.com/docs/concepts/git/monorepos#turborepo official instructions did not work for me!
 
-Use `yarn` instead of `npm`. Yarn does a better job with workspaces. I did get this to work with npm once, but forgot how.
+Use `yarn` instead of `npm`. Yarn does a better job with workspaces. I got this to work with npm once, but forgot how exactly.
 
 ### Build command
 
