@@ -12,7 +12,7 @@ https://vercel.com/docs/concepts/git/monorepos#turborepo instructions did not wo
 
 ## 1. Must use Yarn.
 
-Specify packageManager in package.json. Install on your local, commit/push yarn.lock file in root. Do not commit/push any package-lock.json files in root or in any of the packages!
+Install on your local, commit/push yarn.lock file in root. Do not commit/push any package-lock.json files in root or in any of the packages!
 
 ## 2. Build command
 
