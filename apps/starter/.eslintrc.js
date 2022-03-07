@@ -1,0 +1,45 @@
+module.exports = {
+  // env: {
+  //   browser: true,
+  //   es2021: true,
+  //   es6: true,
+  //   jest: true,
+  //   node: true,
+  // },
+  // extends: ['eslint:recommended', 'plugin:react/recommended'],
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
+  parserOptions: {
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true,
+    },
+    ecmaVersion: 12,
+  },
+  // plugins: ['react', 'eslint-plugin-no-inline-styles'],
+  // rules: {
+  //   'import/prefer-default-export': 'off',
+  //   'react/jsx-filename-extension': 'off',
+  //   'react/react-in-jsx-scope': 'off',
+  //   'react/jsx-props-no-spreading': 'off',
+  //   'react/no-unescaped-entities': 'warn',
+  //   'react/require-default-props': 'warn',
+  //   'react/forbid-prop-types': 'off',
+  //   'jsx-a11y/alt-text': 'off',
+  //   'jsx-a11y/no-noninteractive-element-interactions': 'off',
+  //   'jsx-a11y/click-events-have-key-events': 'off',
+  //   'arrow-parens': 'off',
+  //   'semi': ['error', 'always'],
+  //   'quotes': ['error', 'single'],
+  //   'comma-dangle': ['error', 'always-multiline'],
+  //   'indent': ['error', 2, { SwitchCase: 1 }],
+  //   'max-len': 'off',
+  //   'object-curly-spacing': ['error', 'always'],
+  //   'keyword-spacing': 'error',
+  //   'no-multiple-empty-lines': ['error', { max: 1 }],
+  //   'no-trailing-spaces': 'error',
+  // },
+};

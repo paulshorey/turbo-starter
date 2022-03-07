@@ -1,0 +1,14 @@
+{
+  "extends": "tsconfig/nextjs.json",
+  "include": ["."],
+  "exclude": ["dist", "build", "node_modules"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@templates/*": ["src/components/templates/*"],
+      "@data/*": ["src/data/*"],
+      "@functions/*": ["src/functions/*"],
+      "@styles/*": ["src/styles/*"]
+    }
+  }
+}

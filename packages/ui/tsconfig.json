@@ -1,0 +1,14 @@
+{
+  "extends": "tsconfig/nextjs.json",
+  "include": ["."],
+  "exclude": ["dist", "build", "node_modules"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@forms/*": ["src/components/forms/*"],
+      "@functions/*": ["src/functions/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@styles/*": ["src/styles/*"]
+    }
+  }
+}

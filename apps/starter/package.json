@@ -1,0 +1,56 @@
+{
+  "name": "starter",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "serve": "next start",
+    "start": "next start",
+    "export": "next export",
+    "lint": "eslint **/src/**/*.js",
+    "lint:fix": "eslint --fix **/src/**/*.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.15.0",
+    "@emotion/babel-plugin": "^11.3.0",
+    "@emotion/babel-preset-css-prop": "^11.2.0",
+    "@emotion/react": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "airtable": "^0.11.1",
+    "cachios": "^3.0.0",
+    "core-js": "^3.21.1",
+    "dateformat": "^5.0.3",
+    "dotenv-load": "^2.0.0",
+    "ui": "*",
+    "styles": "*",
+    "tsconfig": "*",
+    "markdown-it": "^12.2.0",
+    "next": "^11.0.1",
+    "next-compose-plugins": "^2.2.1",
+    "react": "^17.0.2",
+    "react-cool-inview": "^2.0.7",
+    "react-dom": "^17.0.2",
+    "swr": "^0.5.6",
+    "webpack": "^5.70.0",
+    "postcss": "^8.4.7"
+  },
+  "devDependencies": {
+    "next-transpile-modules": "9.0.0",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-emotion": "^11.0.0",
+    "eslint": "^7.17.0",
+    "eslint-plugin-no-inline-styles": "^1.0.5",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^7.0.4",
+    "@types/react": "17.0.37",
+    "tsconfig": "*",
+    "typescript": "^4.5.3"
+  },
+  "xhusky": {
+    "hooks": {
+      "pre-commit": "bash bin/preCommit.sh"
+    }
+  }
+}

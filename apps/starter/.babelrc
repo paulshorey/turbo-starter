@@ -1,0 +1,17 @@
+{
+  "presets": [
+    "next/babel",
+    "@emotion/babel-preset-css-prop"
+  ],
+  "plugins": [
+    [
+      "@emotion",
+      {
+        "sourceMap": false,
+        "autoLabel": "dev-only",
+        "cssPropOptimization": false,
+        "labelFormat": "[filename]__[local]"
+      }
+    ]
+  ]
+}
