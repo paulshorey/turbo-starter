@@ -2,6 +2,7 @@
   "name": "turborepo-starter",
   "version": "0.0.0",
   "private": true,
+  "packageManager": "npm@6.14.16",
   "workspaces": [
     "apps/starter",
     "packages/styles",
