@@ -2,9 +2,7 @@
 
 Copied from https://github.com/cvrlnolan/turborepo-tailwindcss
 
-Added Emotion CSS and shared styles. Removed typescript temporarily, to debug deployment.
-
-Checkout "ts" branch for a version which supports typescript, even though it also doesn't use it.
+Added **`ui`** component library styled with Emotion CSS, and a **`styles`** package to be shared by ui components and all apps.
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
