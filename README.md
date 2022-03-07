@@ -10,17 +10,13 @@ Checkout "ts" branch for a version which supports typescript, even though it als
 
 https://vercel.com/docs/concepts/git/monorepos#turborepo instructions did not work for me.
 
-## 1. Must use Yarn.
-
-Install on your local, commit/push yarn.lock file in root. Do not commit/push any package-lock.json files in root or in any of the packages!
-
-## 2. Build command
+## Build command
 
 ```
 cd ../.. && yarn run build
 ```
 
-## 3. Install command
+## Install command
 
 `yarn install && yarn install` duplicate is not a mistake. It must be called twice! First time to install turbo. Second time to install everything else.
 
@@ -28,7 +24,7 @@ cd ../.. && yarn run build
 cd ../.. yarn install && yarn install && cd ./apps/starter
 ```
 
-## 4. Root directory
+## Root directory
 
 ```
 apps/starter
