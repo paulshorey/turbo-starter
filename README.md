@@ -11,7 +11,9 @@ Checkout "ts" branch for a version which supports typescript, even though it als
 
 # Deploy to Vercel...
 
-Easy and fast. HOWEVER, https://vercel.com/docs/concepts/git/monorepos#turborepo official instructions did not work for me! Use below:
+Easy and fast. HOWEVER, https://vercel.com/docs/concepts/git/monorepos#turborepo official instructions did not work for me!
+
+Use `yarn` instead of `npm`. Yarn does a better job with workspaces. I did get this to work with npm once, but forgot how.
 
 ### Build command
 
