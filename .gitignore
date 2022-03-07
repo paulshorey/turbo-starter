@@ -9,6 +9,7 @@ node_modules
 coverage
 
 # next.js
+.turbo/
 .next/
 out/
 build
@@ -31,3 +32,4 @@ yarn-error.log*
 
 # turbo
 .turbo
+.next
