@@ -12,8 +12,10 @@
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{js,ts,tsx,md}\""
   },
-  "devDependencies": {
-    "prettier": "^2.5.1",
+  "dependencies": {
     "turbo": "latest"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
   }
 }
