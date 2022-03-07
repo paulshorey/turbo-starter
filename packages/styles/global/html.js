@@ -1,4 +1,4 @@
-import { css } from '@emotion/react';
+import { css } from "@emotion/react";
 
 const html = (theme) => css`
   html {
@@ -109,11 +109,11 @@ const html = (theme) => css`
   }
 
   a {
-    color: ${theme.colors.primary.link};
+    color: ${theme.colors.link};
     text-decoration: none;
 
     &:hover {
-      color: ${theme.colors.primary.linkDark};
+      color: ${theme.colors.linkDark};
       text-decoration: underline;
     }
   }

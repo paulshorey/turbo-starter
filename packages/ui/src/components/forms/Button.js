@@ -1,8 +1,15 @@
 import { css } from "@emotion/react";
+import theme from "styles/theme";
 
-const style = (theme) => css`
-  color: green;
-  border: solid 2px green;
+const style = () => css`
+  cursor: pointer;
+  color: ${theme.colors.accent};
+  border: solid 2px ${theme.colors.accent};
+  &:focus {
+    outline: none;
+    color: ${theme.colors.accentDark};
+    border: solid 2px ${theme.colors.accentDark};
+  }
 `;
 
 const Button = () => {

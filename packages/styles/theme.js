@@ -1,8 +1,9 @@
 const theme = {
   colors: {
-    primary: {
-      link: '#0070f3',
-    },
+    link: "hsla(210, 50%, 50%, 1)",
+    linkDark: "hsla(210, 50%, 33%, 1)",
+    accent: "hsla(120, 50%, 50%, 1)",
+    accentDark: "hsla(120, 50%, 33%, 1)",
   },
   fonts: {},
   breakpoints: {
@@ -27,7 +28,7 @@ const theme = {
 };
 for (let size in theme.breakpoints) {
   let obj = theme.breakpoints[size];
-  obj.str = obj.num + 'px';
+  obj.str = obj.num + "px";
   obj.max = `@media (max-width: ${obj.num}px)`;
   obj.min = `@media (min-width: ${obj.num + 1}px)`;
   obj.maxHeight = `@media (max-height: ${obj.num}px)`;

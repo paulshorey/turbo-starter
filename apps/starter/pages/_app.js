@@ -1,9 +1,12 @@
 import React, { useEffect } from 'react';
-import { ThemeProvider } from '@emotion/react';
+import { Global, css, ThemeProvider } from '@emotion/react';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
-import theme from 'styles/theme';
-import GlobalStyle from 'styles/global';
+import theme from 'styles/theme.js';
+import html from 'styles/global/html.js';
+import classes from 'styles/global/classes.js';
+import fonts from 'styles/global/fonts.js';
+import layout from 'styles/global/layout.js';
 
 let currentUrl = '';
 function MyApp({ Component, pageProps }) {
@@ -43,7 +46,14 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <ThemeProvider theme={theme}>
-        <GlobalStyle />
+        <Global
+          styles={css`
+            ${html(theme)}
+            ${classes(theme)}
+            ${fonts(theme)}
+            ${layout(theme)}
+          `}
+        />
         <Head />
         <Component {...pageProps} />
       </ThemeProvider>
