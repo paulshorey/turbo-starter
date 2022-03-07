@@ -44,7 +44,6 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "husky": "^7.0.4",
     "@types/react": "17.0.37",
-    "tsconfig": "*",
     "typescript": "^4.5.3"
   },
   "xhusky": {
