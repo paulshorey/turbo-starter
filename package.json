@@ -13,7 +13,8 @@
     "format": "prettier --write \"**/*.{js,ts,tsx,md}\""
   },
   "dependencies": {
-    "turbo": "latest"
+    "turbo": "latest",
+    "next": "^11.0.1"
   },
   "devDependencies": {
     "prettier": "^2.5.1"
