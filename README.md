@@ -6,21 +6,29 @@ Added Emotion CSS and shared styles.
 
 Checkout "ts" branch for a version just like original which supports typescript.
 
-## Got it to run on Vercel...
+# For it to run on Vercel...
 
-Build command
+https://vercel.com/docs/concepts/git/monorepos#turborepo instructions did not work for me.
+
+## 1. Must use Yarn.
+
+Specify packageManager in package.json. Install on your local, commit/push yarn.lock file in root. Do not commit/push any package-lock.json files in root or in any of the packages!
+
+## 2. Build command
 
 ```
-cd /vercel/path0 && yarn run build && echo "||| FINISHED BUILD |||" && pwd && cd apps/starter && echo "||| NOW ATTEMPT TO START... |||" && pwd && cd /vercel/path0/apps/starter
+cd ../.. && yarn run build
 ```
 
-Install command
+## 3. Install command
+
+`yarn install && yarn install` duplicate is not a mistake. It must be called twice! First time to install turbo. Second time to install everything else.
 
 ```
-cd /vercel/path0 && yarn install && yarn install && echo "||| YARN INSTALED |||" && pwd && cd /vercel/path0/apps/starter
+cd ../.. yarn install && yarn install && cd ./apps/starter
 ```
 
-Root directory
+## 4. Root directory
 
 ```
 apps/starter
