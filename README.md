@@ -11,7 +11,7 @@ Checkout "ts" branch for a version which supports typescript, even though it als
 
 # Deploy to Vercel...
 
-https://vercel.com/docs/concepts/git/monorepos#turborepo instructions did not work for me.
+Easy and fast. HOWEVER, https://vercel.com/docs/concepts/git/monorepos#turborepo official instructions did not work for me!
 
 ### Build command
 
