@@ -9,7 +9,7 @@ Added `ui` component library styled with Emotion CSS, and a `styles` package to 
 
 # Deploy to Vercel...
 
-Easy and fast. HOWEVER, https://vercel.com/docs/concepts/git/monorepos#turborepo official instructions did not work for me!
+Easy and fast. HOWEVER, https://vercel.com/docs/concepts/git/monorepos#turborepo official instructions did not work for me. Use below.
 
 Use `yarn` instead of `npm`. Yarn does a better job with workspaces. I got this to work with npm once, but forgot how exactly.
 
