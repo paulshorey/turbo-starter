@@ -4,7 +4,7 @@ Copied from https://github.com/cvrlnolan/turborepo-tailwindcss
 
 Added Emotion CSS and shared styles. Removed typescript temporarily, to debug deployment.
 
-Checkout "ts" branch for a version just like original which supports typescript.
+Checkout "ts" branch for a version which supports typescript, even though it also doesn't use it.
 
 # For it to run on Vercel...
 
