@@ -7,6 +7,7 @@ Added Emotion CSS and shared styles. Removed typescript temporarily, to debug de
 Checkout "ts" branch for a version which supports typescript, even though it also doesn't use it.
 
 <p>&nbsp;</p>
+<p>&nbsp;</p>
 
 # Deploy to Vercel...
 
@@ -33,9 +34,11 @@ apps/starter
 ```
 
 <p>&nbsp;</p>
+<p>&nbsp;</p>
 
 # Deploy to Amplify...
 
+Make sure to check the checkbox `Connecting a monorepo? Pick a folder` and input path to your app like `apps/starter`.
 
 ### Build config
 
